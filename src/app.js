@@ -36,7 +36,7 @@ async function setup() {
     },
     // https://peter.sh/experiments/chromium-command-line-switches/
     args: [
-      '--privileged',
+      '--no-sandbox',
       '--disable-background-timer-throttling',
       '--disable-backgrounding-occluded-windows',
       '--disable-breakpad',
